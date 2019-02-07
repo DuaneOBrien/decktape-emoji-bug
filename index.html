@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>decktape emoji encoding issue</title>
+    <meta charset="utf-8">
+    <style>
+      html {
+        --primary-highlight: #red;
+        --highlight-background: #blue;
+        --secondary-highlight: #green;
+      }
+
+      .theBackground {
+        background-color: white;
+        color: black;
+      }
+
+      body {
+        font-family: "Avenir Next", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <H1>📸 📹 📰 📬 🐦</H1>
+    <H1>🧙‍♂️ 🧛‍♂️ 🤹‍♂️ 🧟‍♂️ 🧜‍♂️</H1>
+    <script src="../Assets/js/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        ratio: '16:9',
+        sourceUrl: 'Outline.md'
+      });
+    </script>
+  </body>
+</html>
